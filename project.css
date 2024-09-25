@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#yesBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#noBtn {
+    background-color: #dc3545;
+    color: white;
+}
